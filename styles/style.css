@@ -18,22 +18,12 @@ body {
   font-family: "Poppins", sans-serif;
   min-width: 100vh;
   min-height: 100vh;
-  /* min-height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #c5d0e1;
 }
 
-/* .white-box-container {
-  width: 37rem;
-  height: 28rem;
-
-  background-color: white;
-  box-shadow: var(--dark-shadow);
-  display: flex;
-  flex-direction: column;
-} */
 .white-box-container {
   display: flex;
   flex-direction: column;
@@ -54,7 +44,7 @@ body {
 .white-box {
   width: 120px;
   height: 120px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 
   flex: 0 0 calc(25% - 10px);
   height: 100px;
@@ -62,18 +52,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("/gif/minion-png.png");
-  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); */
-  /* border-radius: 4px; */
   transform: perspective(600px) rotateX(5deg);
-  /* box-shadow: 1px 1px 0px #999, 2px 2px 0px #999, 3px 3px 0px #999,
-    4px 4px 0px #999, 5px 5px 0px #999, 6px 6px 0px #999; */
   box-shadow: 0 01px #f6e58d, 01px 0 #f6e58d, 01px 02px #f6e58d,
     02px 01px #f6e58d, 02px 03px #f6e58d, 03px 02px #f6e58d, 03px 04px #f6e58d,
     04px 03px #f6e58d, 04px 05px #f6e58d, 05px 04px #f6e58d, 05px 06px #f6e58d,
     06px 05px #f6e58d;
 }
 .animate-right {
-  /* animation: rotate 4s linear infinite; */
   animation: rotate 1s linear;
 }
 @keyframes rotate {
